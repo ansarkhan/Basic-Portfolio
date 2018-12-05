@@ -13,40 +13,20 @@ hr {
     margin-bottom: 30px;
 }
 
-.name {
-    background-color: lightblue;
-}
-
-.main-profile-container {
-    /*background-image: url("../images/fancy-cushion.png"); */
-    width: 960px;
-}
-
-.profile-pic {
-    float: left;
-    margin-right: 20px;
-    margin-bottom: 20px;
-}
-
-.main-profile {
-    background-color: green;
-    width: 960px;
-    margin: auto;
-}
-
-
-.container {
-    margin: auto;
+/* Header CSS */
+.header-wrapper {
     background-color: white;
-
 }
 
 .header {
-    background-color: white;
     width: 960px;
     height: 70px;
     margin: auto;
     clear: both;
+}
+
+.name {
+    background-color: lightblue;
 }
 
 .full-name {
@@ -78,6 +58,24 @@ li {
     content: " | ";
     padding: 0 5px;
 }
+
+/* Body CSS */
+
+.container {
+    width: 960px;
+    margin: auto;
+    background-color: white;
+}
+
+.profile-pic {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+
 
 h1,h2,h3,h4,h5,h6 {
     font-family: 'Georgia', Times, Times New Roman, serif;
