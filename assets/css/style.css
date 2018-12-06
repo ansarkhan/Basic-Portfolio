@@ -1,7 +1,11 @@
 body {
-    margin-top:0px;
-    /* background-image: url("../images/fancy-cushion.png") */
-    background-color: yellow;
+    margin: 0px 0px 0px 0px;
+    background-image: url("../images/folk-pattern.png")
+}
+
+p,h1,h2,h3,h4,h5 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #4aaaa5;
 }
 
 h3 {
@@ -16,42 +20,55 @@ hr {
 /* Header CSS */
 .header-wrapper {
     background-color: white;
+    overflow: auto;
 }
 
 .header {
     width: 960px;
-    height: 70px;
     margin: auto;
-    clear: both;
 }
 
-.name {
-    background-color: lightblue;
-}
 
+/*
 .full-name {
     float: left;
     background-color: lightblue;
     padding-right: 30px;
     padding-left: 30px;
+    display: inline;
+
+}
+*/
+
+
+.name {
+    display: inline;
+    float: left;
+    background-color: #4aaaa5;
+    color: white;
+    padding: 20px;
+    margin-top:0px;
+    margin-bottom: 0px;
 
 }
 
-.nav-bar {
-    float: right;
-    clear: right;
-    padding-top: 25px;
-}
 
 .nav {
     list-style-type: none;
+    display:inline;
+    float: right;
     margin: 0;
     padding: 0;
-    float: right;
+    margin-top: 20px;
 }
 
 li {
     display: inline;
+    color: #4aaaa5;
+}
+
+li a {
+    color: #4aaaa5;
 }
 
 .nav li + li:before {
@@ -60,6 +77,10 @@ li {
 }
 
 /* Body CSS */
+
+.main-container {
+    min-height: calc(100vh - 70px);
+  }
 
 .container {
     width: 960px;
@@ -75,6 +96,15 @@ li {
 
 
 /* Footer CSS */
+
+.footer {
+    height: 60px;
+    background-color: white;
+  }
+
+.footer-content {
+    margin-left: 100px;
+}
 
 
 h1,h2,h3,h4,h5,h6 {
