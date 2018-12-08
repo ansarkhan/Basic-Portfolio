@@ -126,7 +126,7 @@ hr {
     height: 20%;
 }
 
-#index-text {
+.index-text {
     padding-right: 20px;
 }
 
@@ -196,7 +196,9 @@ input[type=submit] {
     position: absolute;
     width: 100%;
     text-align: center;
-    bottom:0px;
+    bottom:-10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 
 }
 
