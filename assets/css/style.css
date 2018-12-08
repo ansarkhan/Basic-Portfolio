@@ -1,3 +1,5 @@
+
+/* Main elements CSS */
 body {
     margin: 0px 0px 0px 0px;
     background-image: url("../images/circuit.png")
@@ -7,6 +9,22 @@ p,h1,h2,h3,h4,h5 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: #4aaaa5;
 }
+
+a:link {
+    text-decoration: none;
+  }
+  
+  a:visited {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  a:active {
+    text-decoration: underline;
+  }
 
 
 /* Header CSS */
@@ -20,18 +38,6 @@ p,h1,h2,h3,h4,h5 {
     width: 960px;
     margin: auto;
 }
-
-
-/*
-.full-name {
-    float: left;
-    background-color: lightblue;
-    padding-right: 30px;
-    padding-left: 30px;
-    display: inline;
-
-}
-*/
 
 
 .name {
